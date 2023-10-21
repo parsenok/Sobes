@@ -44,6 +44,28 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Dapplo.Windows.Input": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "InputSimulator": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "WindowsAPICodePack": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "WindowsAPICodePackSensors": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "WindowsAPICodePackShell": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
